@@ -9,8 +9,8 @@
         6) Add a anchor link for every image**
         7) Merge together 2 table cells **
         8) Divide the page using a horizontal line**
-        9) Create a container with a nested paragraph and a nested unordered list
-        10) Create a footer with some information about the page creator
+        9) Create a container with a nested paragraph and a nested unordered list**
+        10) Create a footer with some information about the page creator**
 
       
     -->
@@ -30,6 +30,29 @@
     <style>
         body {
             background-color: blue;
+            max-width: auto;
+            height: 100%;
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: azure;
+
+        }
+
+        .brand-list {
+
+            color: azure;
+
+        }
+
+        .table-container {
+            border-style: dashed;
+            border-color: azure;
+            border-radius: 20px;
         }
     </style>
 
@@ -44,7 +67,7 @@
     <div>
         <h2>Brand</h2>
     </div>
-    <ol>
+    <ol class="brand-list">
         <li>Nike </li>
         <li>Adiddas</li>
         <li>Puma</li>
@@ -53,44 +76,45 @@
         <h2>Choose your Boot</h2>
     </div>
     <hr>
-    <table id="table-container">
+    <table class="table-container">
         <tr>
-            <td> <a href="www.google.com">shop</a><img
+            <td> <a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
-            <td> <a href="www.google.com">shop</a><img
+            <td class="cell-text">boots</td>
+            <td> <a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
-            <td><a href="www.google.com">shop</a><img
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
+            <td cclass="cell-text">boots</td>
+            <td><a href="www.google.com">shop</a><img class="image"
+                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150">
+            </td>
             <td>boots</td>
         </tr>
         <tr>
             <td>boots</td>
-            <td><a href="www.google.com">shop</a><img
+            <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
-            <td><a href="www.google.com">shop</a><img
+            <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
         </tr>
         <tr>
-            <td><a href="www.google.com">shop</a><img
+            <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
-            <td><a href="www.google.com">shop</a><img
+            <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
-            <td><a href="www.google.com">shop</a><img
+            <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
         </tr>
         <tr>
             <td rowspan="2">Football boots</td>
-            <td><a href="www.google.com">shop</a><img
+            <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
-            <td><a href="www.google.com">Shop</a><img
+            <td><a href="www.google.com">Shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
             <td>boots</td>
         </tr>
@@ -110,5 +134,6 @@
 
     <script src="index.js"></script>
 </body>
+<footer>Raeven Goncalves</footer>
 
 </html>
