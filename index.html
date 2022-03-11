@@ -26,7 +26,6 @@
 
     <title>Football World</title>
     <link rel="stylesheet" src="style.css">
-    </link>
     <style>
         body {
             background-color: blue;
@@ -50,18 +49,54 @@
         }
 
         .table-container {
-            border-style: dashed;
+            border-style: solid;
             border-color: azure;
             border-radius: 20px;
         }
+
+        td {
+            border-style: dashed;
+            border-color: green;
+            border-width: 5px;
+            border-radius: 20px;
+        }
+
+        p {
+            border-style: solid;
+            border-color: azure;
+            margin-top: 10px;
+            text-align: center;
+            color: rgb(245, 210, 11)
+        }
+
+        footer {
+            display: block;
+            border-color: azure;
+            background-color: azure;
+        }
+
+        .text-block {
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .image {
+
+            align-items: center;
+        }
+
+        .link-color {
+            color: rgb(245, 210, 11)
+        }
     </style>
+
 
 
 
 </head>
 
 <body>
-    <header>
+    <header id="container">
         <h1 id="page-title">Football boots</h1>
     </header>
     <div>
@@ -80,49 +115,49 @@
         <tr>
             <td> <a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="cell-text">boots</td>
+            <td class="text-block">boots</td>
             <td> <a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td cclass="cell-text">boots</td>
+            <td class="text-block">boots</td>
             <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150">
             </td>
-            <td>boots</td>
+
         </tr>
         <tr>
-            <td>boots</td>
+            <td class="text-block">boots</td>
             <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
-            <td><a href="www.google.com">shop</a><img class="image"
+            <td class="text-block"><a href="www.google.com">shop</a> here</td>
+            <td class="text-block"><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
+            <td class="text-block">boots</td>
         </tr>
         <tr>
             <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
+            <td class="text-block">boots</td>
             <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
+            <td class="text-block">boots</td>
             <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
+
         </tr>
         <tr>
-            <td rowspan="2">Football boots</td>
+            <td class="text-block"> boots</td>
             <td><a href="www.google.com">shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
-            <td><a href="www.google.com">Shop</a><img class="image"
+            <td class="text-block">boots</td>
+            <td rowspan="2"><a href="www.google.com" class="link-color">Shop</a><img class="image"
                     src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td>boots</td>
+            <td class="text-block">boots</td>
         </tr>
     </table>
-    <hr>
+
     <h3>Infomation</h3>
     <div>
-        <p>Make sure you get the right boots</p>
+        <p class="paragraph-text">"Make sure you get the right boots"</p>
         <ul>
             <li>Size</li>
             <li>Playing surface</li>

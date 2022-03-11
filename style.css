@@ -6,10 +6,73 @@ CSS EXERCISES
 12) Set every h1 to be centered??**
 13) Change the color of each link in the page
 14) Create a class with a border assigned to it**
-15) Set the previously created table to have rounded corners
-16) Add a margin between every paragraph
+15) Set the previously created table to have rounded corners**
+16) Add a margin between every paragraph**
 17) Create a class which changes font size and text weight when applied
 18) Create a class to hide a piece of content
-19) Add a green border to each <td>
+19) Add a green border to each <td>**
 20) Add a dotted red border to each <tr> (note: <tr> does not accept a border property)
 */
+
+        body {
+            background-color: blue;
+            max-width: auto;
+            height: 100%;
+            margin: 20px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: azure;
+
+        }
+
+        .brand-list {
+
+            color: azure;
+
+        }
+
+        .table-container {
+            border-style: solid;
+            border-color: azure;
+            border-radius: 20px;
+        }
+
+        td {
+            border-style: dashed;
+            border-color: green;
+            border-width: 5px;
+            border-radius: 20px;
+        }
+
+        p {
+            border-style: solid;
+            border-color: azure;
+            margin-top: 10px;
+            text-align: center;
+            color: rgb(245, 210, 11)
+        }
+
+        footer {
+            display: block;
+            border-color: azure;
+            background-color: azure;
+        }
+
+        .text-block {
+            text-align: center;
+            color: aliceblue;
+        }
+
+        .image {
+
+            align-items: center;
+        }
+
+        .link-color {
+            color: rgb(245, 210, 11)
+        }
+    
