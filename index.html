@@ -28,13 +28,7 @@
     <link rel="stylesheet" src="style.css">
     <!--  
   <style>
-        body {
-            background-color: blue;
-            max-width: auto;
-            height: 100%;
-            margin: 20px;
-        }
-
+      
         h1,
         h2,
         h3 {
@@ -62,13 +56,7 @@
             border-radius: 20px;
         }
 
-        p {
-            border-style: solid;
-            border-color: azure;
-            margin-top: 10px;
-            text-align: center;
-            color: rgb(245, 210, 11)
-        }
+       
 
         footer {
             display: block;
@@ -76,34 +64,56 @@
             background-color: azure;
         }
 
-        .text-block {
-            text-align: center;
-            color: aliceblue;
-        }
-
-        .image {
-
-            align-items: center;
-        }
-
-        .link-color {
-            color: rgb(245, 210, 11)
-        }
-
-        li {
-            color: aliceblue;
-
-        }
-    </style>
+        
 -->
     <style>
         body {
             background-color: aquamarine;
+            max-width: 50%;
+            margin-left: 25%;
+            margin-right: 25%;
+
         }
 
         td {
-            border: 1px solid black;
+            border: 1px solid rgb(14, 235, 99);
             border-radius: 5px;
+        }
+
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            color: rgb(18, 19, 19);
+
+        }
+
+        a {
+            color: red;
+        }
+
+        .border {
+            border: 2px solid black;
+            border-radius: 5px;
+        }
+
+        p {
+            border-radius: 5px;
+            border-style: solid;
+            border-color: rgb(23, 26, 26);
+            margin-top: 10px;
+            margin-top: 10px;
+            text-align: center;
+            color: rgb(14, 13, 13)
+        }
+
+        .bigger-font {
+            font-weight: 2em;
+            font-size: 500;
+        }
+
+        .hidden {
+            visibility: hidden;
         }
     </style>
 
@@ -112,18 +122,18 @@
 
 <body>
     <header id="container">
-        <h1 id="page-title">Football boots</h1>
+        <h1 class="page-title">Football boots</h1>
     </header>
     <div>
         <h2>Brand</h2>
     </div>
-    <ol class="brand-list">
-        <li>Nike </li>
-        <li>Adiddas</li>
+    <ol id="brand-list">
+        <li class="bigger-font">Nike</li>
+        <li>Adidas</li>
         <li>Puma</li>
     </ol>
     <hr>
-    <table>
+    <table class="border">
         <tr>
 
             <th>Heading col 1</th>
@@ -137,11 +147,13 @@
             <td>cell 1</td>
             <td>
                 <a href="https://google.com">
-                    <img src="https://place-hold.it/100">
+                    <img src="https://place-hold.it/100" class="hidden">
                 </a>
             </td>
             <td colspan=2>cell 2 and cell 3 </td>
-            <td>price</td>
+            <td>
+                <a href="https://google.com"> Price</a>
+            </td>
         </tr>
         <tr>
             <td> cell 4</td>
@@ -152,7 +164,9 @@
             </td>
             <td>cell 5</td>
             <td>cell 12</td>
-            <td>price</td>
+            <td>
+                <a href="https://google.com"> Price</a>
+            </td>
 
         </tr>
         <tr>
@@ -164,7 +178,9 @@
             </td>
             <td>cell 7</td>
             <td>cell 8</td>
-            <td>price</td>
+            <td>
+                <a href="https://google.com"> Price</a>
+            </td>
         </tr>
         <tr>
             <td>cell 9</td>
@@ -175,25 +191,30 @@
             </td>
             <td>cell 10</td>
             <td>cell 11</td>
-            <td>price
+            <td>
+                <a href="https://google.com"> Price</a>
+            </td>
         </tr>
     </table>
     <hr>
 
     <h3>Infomation</h3>
     <div>
-        <p class="paragraph-text">"Make sure you get the right boots"</p>
+        <p class="paragraph-text">
         <ul>
             <li>Size</li>
             <li>Playing surface</li>
             <li>Player position</li>
 
         </ul>
+        </p>
     </div>
 
 
-    <!-- <script src="index.js"></script>-->
+    <script src="index.js"></script>
 </body>
-<footer>Raeven Goncalves</footer>
+<footer>
+    <div>Raeven Goncalves</div>
+</footer>
 
 </html>
