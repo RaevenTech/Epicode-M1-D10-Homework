@@ -26,7 +26,8 @@
 
     <title>Football World</title>
     <link rel="stylesheet" src="style.css">
-    <style>
+    <!--  
+  <style>
         body {
             background-color: blue;
             max-width: auto;
@@ -88,9 +89,23 @@
         .link-color {
             color: rgb(245, 210, 11)
         }
+
+        li {
+            color: aliceblue;
+
+        }
     </style>
+-->
+    <style>
+        body {
+            background-color: aquamarine;
+        }
 
-
+        td {
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
 
 
 </head>
@@ -107,53 +122,63 @@
         <li>Adiddas</li>
         <li>Puma</li>
     </ol>
-    <div id="table-title">
-        <h2>Choose your Boot</h2>
-    </div>
     <hr>
-    <table class="table-container">
+    <table>
         <tr>
-            <td> <a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
-            <td> <a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
-            <td><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150">
+
+            <th>Heading col 1</th>
+            <th>Heading col 2</th>
+            <th>Heading col 3</th>
+            <th>Heading col 4</th>
+            <th>Heading col 5</th>
+
+        </tr>
+        <tr>
+            <td>cell 1</td>
+            <td>
+                <a href="https://google.com">
+                    <img src="https://place-hold.it/100">
+                </a>
             </td>
+            <td colspan=2>cell 2 and cell 3 </td>
+            <td>price</td>
+        </tr>
+        <tr>
+            <td> cell 4</td>
+            <td>
+                <a href="https://google.com">
+                    <img src="https://place-hold.it/100">
+                </a>
+            </td>
+            <td>cell 5</td>
+            <td>cell 12</td>
+            <td>price</td>
 
         </tr>
         <tr>
-            <td class="text-block">boots</td>
-            <td><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block"><a href="www.google.com">shop</a> here</td>
-            <td class="text-block"><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
+            <td>cell 6</td>
+            <td>
+                <a href="https://google.com">
+                    <img src="https://place-hold.it/100">
+                </a>
+            </td>
+            <td>cell 7</td>
+            <td>cell 8</td>
+            <td>price</td>
         </tr>
         <tr>
-            <td><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
-            <td><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
-            <td><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-
-        </tr>
-        <tr>
-            <td class="text-block"> boots</td>
-            <td><a href="www.google.com">shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
-            <td rowspan="2"><a href="www.google.com" class="link-color">Shop</a><img class="image"
-                    src="https://www.sportspar.de/media/image/c5/15/61/104740-01-2.jpg" width="150" height="150"></td>
-            <td class="text-block">boots</td>
+            <td>cell 9</td>
+            <td>
+                <a href="https://google.com">
+                    <img src="https://place-hold.it/100">
+                </a>
+            </td>
+            <td>cell 10</td>
+            <td>cell 11</td>
+            <td>price
         </tr>
     </table>
+    <hr>
 
     <h3>Infomation</h3>
     <div>
@@ -167,7 +192,7 @@
     </div>
 
 
-    <script src="index.js"></script>
+    <!-- <script src="index.js"></script>-->
 </body>
 <footer>Raeven Goncalves</footer>
 
