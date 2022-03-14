@@ -24,7 +24,7 @@ delete person.email;
 
 //24) Create an array with 10 strings in it
 
-let strings = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J"]
+let strings = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "split"]
 
 //25) Print in the console every string from the previous array
 
@@ -33,14 +33,18 @@ console.log(strings)
 //25) Print in the console every string from the previous array
 
 for (let i = 0; i < strings.length; i++) {
-    console.log(strings[i]);
+  console.log(strings[i]);
 }
-
+for (let string of strings) {
+  console.log(string);
+}
 //26) Create an array with 100 random numbers in it
-let random = [Math.floor(Math.random() * 100) + 1];
 
-for (let i = 0; i < random.length; i++) {
-    console.log(random[i]);
+const randomArray = []
+
+for (let i = 0; i < randomArray.length; i++) {
+  let random = randomArray.Math.floor(Math.random() * 100) + 1;
+  console.log(random);
 }
 
 
@@ -63,7 +67,7 @@ DOM EXERCISES
 
 //31) Get the element with an id of "container" from the page
 
-let node = document.getElementById(header)
+let node = document.getElementById(".container")
 
 //32) Get every <td> element from the page
 
